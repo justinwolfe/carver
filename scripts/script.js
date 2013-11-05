@@ -12,8 +12,8 @@
  
  $(document).ready(function() {
 	loadLS();
-	resizeMenuText("shortcuts");
-	resizeMenuText("font");
+	//resizeMenuText("shortcuts");
+	//resizeMenuText("font");
 	addEventListeners();
  });
  
@@ -48,7 +48,7 @@
  	$(window).resize(function() {
 		resizeLine();
 		resizeParagraph();
-		resizeMenuText("shortcuts");
+		//resizeMenuText("shortcuts");
 	});
 	$(window).keydown(function(event){	
 		var key = event.keyCode;
