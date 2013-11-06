@@ -1,8 +1,20 @@
-/* big screens */
+@media only screen 
+and (min-width : 500px) {
+	#savedTextsHolder{
+		font-size: 12px;
+	}
+	#reviseButton{
+		font-size: 20px;
+	}
+}
+
 @media only screen 
 and (min-width : 750px) {
 	#savedTextsHolder{
 		font-size: 15px;
+	}
+	#reviseButton{
+		font-size: 25px;
 	}
 }
 
@@ -11,12 +23,18 @@ and (min-width : 1090px) {
 	#savedTextsHolder{
 		font-size: 17px;
 	}
+	#reviseButton{
+		font-size: 27px;
+	}
 }
 
 @media only screen 
 and (min-width : 1160px) {
 	#savedTextsHolder{
 		font-size: 18px;
+	}
+	#reviseButton{
+		font-size: 30px;
 	}
 }
 
@@ -25,12 +43,18 @@ and (min-width : 1400px) {
 	#savedTextsHolder{
 		font-size: 18px;
 	}
+	#reviseButton{
+		font-size: 30px;
+	}
 }
 
 @media only screen 
 and (min-width : 1475px) {
 	#savedTextsHolder{
 		font-size: 18px;
+	}
+	#reviseButton{
+		font-size: 30px;
 	}
 }
 
@@ -39,6 +63,9 @@ and (min-width : 1500px) {
 	#savedTextsHolder{
 		font-size: 20px;
 	}
+	#reviseButton{
+		font-size: 33px;
+	}
 }
 
 @media only screen 
@@ -46,5 +73,8 @@ and (min-width : 1620px) {
 /* Styles */
 	#savedTextsHolder{
 		font-size: 22px;
+	}
+	#reviseButton{
+		font-size: 35px;
 	}
 }
